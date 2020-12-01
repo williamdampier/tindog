@@ -4,7 +4,7 @@ body {
 }
 
 h1, h2, h3, h4, h5, h6 {
-font-weight: 900;
+  font-weight: 900;
 }
 
 p {
@@ -17,7 +17,6 @@ p {
 em {
   font-weight: 400;
 }
-
 
 .big-heading {
   font-size: 3.5rem;
@@ -35,10 +34,9 @@ em {
 }
 
 /* Sections */
-
 .colored-section {
   background-color: #ff4c68;
-  color:#fff;
+  color: #fff;
 }
 
 .white-section {
@@ -69,11 +67,7 @@ em {
   font-weight: 400;
 }
 
-
-
 /* Title Section */
-
-
 #title.container-fluid {
   padding: 5% 10% 7%;
   text-align: left;
@@ -86,13 +80,10 @@ em {
   right: 20%;
 }
 
-
 /* Download buttons */
 .download-button {
   margin: 3% 2% 3% 0;
 }
-
-
 
 /* Features section */
 #features {
@@ -109,8 +100,6 @@ em {
 }
 
 /* Testimonials section*/
-
-
 .testimonial-image {
   width: 10%;
   border-radius: 100%;
@@ -118,8 +107,6 @@ em {
 }
 
 /* Press section */
-
-
 .press-logo {
   width: 10%;
   margin: 20px 20px 50px;
@@ -134,20 +121,14 @@ em {
   padding: 2% 3%;
 }
 
-
-
-
 /* Footer section */
-
 .social-icon {
   margin: 5px;
 }
 
 /* Mobile Responsive */
 @media (max-width: 1028px) {
-
-  #title
-  {
+  #title {
     text-align: center;
   }
 
