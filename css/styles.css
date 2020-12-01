@@ -1,9 +1,9 @@
 body {
   font-family: "Montserrat";
+  text-align: center;
 }
 
 h1, h2, h3, h4, h5, h6 {
-  font-family: "Montserrat";
 font-weight: 900;
 }
 
@@ -30,7 +30,24 @@ em {
   line-height: 1.5;
 }
 
+.container-fluid {
+  padding: 5% 10%;
+}
 
+/* Sections */
+
+.colored-section {
+  background-color: #ff4c68;
+  color:#fff;
+}
+
+.white-section {
+  background-color: #fff;
+}
+
+.press-section {
+  background-color: #ef8172;
+}
 
 /* Navigation Bar */
 .navbar {
@@ -53,15 +70,20 @@ em {
 }
 
 
+
 /* Title Section */
 
-#title {
-  background-color: #ff4c68;
-  color: #fff;
+
+#title.container-fluid {
+  padding: 5% 10% 7%;
+  text-align: left;
 }
 
-.container-fluid {
-  padding: 3% 15% 7%;
+.title-image {
+  width: 30%;
+  transform: rotate(25deg);
+  position: absolute;
+  right: 20%;
 }
 
 
@@ -70,19 +92,10 @@ em {
   margin: 3% 2% 3% 0;
 }
 
-/* Title Image */
-.title-image {
-  width: 50%;
-  transform: rotate(25deg);
-  position: absolute;
-  right: 20%;
-}
+
 
 /* Features section */
 #features {
-  padding: 5% 10%;
-  text-align: center;
-  background-color: #fff;
   position: relative;
 }
 
@@ -96,19 +109,7 @@ em {
 }
 
 /* Testimonials section*/
-#testimonials {
-  text-align: center;
-  background-color: #ef8172;
-  font-size: 2rem;
-  line-height: 1.5;
-  font-family: "Montserrat";
-  font-weight: 900;
-  color: #fff;
-}
 
-.carousel-item {
-  padding: 5% 10%;
-}
 
 .testimonial-image {
   width: 10%;
@@ -117,11 +118,7 @@ em {
 }
 
 /* Press section */
-#press {
-  background-color: #ef8172;
-  text-align: center;
-  padding-bottom: 3%;
-}
+
 
 .press-logo {
   width: 10%;
@@ -131,32 +128,16 @@ em {
 /* Pricing section */
 #pricing {
   padding: 100px;
-  text-align: center;
 }
 
 .pricing-column {
   padding: 2% 3%;
 }
 
-/* Footer Section */
-#cta {
-  background-color: #ff4c68;
-  padding-top: 3%;
-  text-align: center;
-  font-size: 3rem;
-  line-height: 1.5;
-  font-family: "Montserrat";
-  font-weight: 900;
-  color: #fff;
-}
+
+
 
 /* Footer section */
-
-#footer {
-  background-color: #fff;
-  text-align: center;
-  padding: 5% 10%;
-}
 
 .social-icon {
   margin: 5px;
